@@ -213,11 +213,11 @@ a:hover {
 }
 
 .wallet::before {
-    background-image: url(/img/wallet.svg);
+    background-image: url(../img/wallet.svg);
 }
 
 .staked::before {
-    background-image: url(/img/staked.svg);
+    background-image: url(../img/staked.svg);
 }
 
 .ambasdors::before {
@@ -346,7 +346,7 @@ a:hover {
 }
 
 .profile__num .open::before {
-    background-image: url(/img/unlock.svg);
+    background-image: url(../img/unlock.svg);
     width: 17px;
     height: 20px;
 }
@@ -356,7 +356,7 @@ a:hover {
 }
 
 .profile__num .close::before {
-    background-image: url(/img/lock.svg);
+    background-image: url(../img/lock.svg);
     width: 14px;
     height: 19px;
 }
@@ -582,7 +582,7 @@ a:hover {
 }
 
 .transaction__send::before {
-    background-image: url(/img/send.svg);
+    background-image: url(../img/send.svg);
 }
 
 .transaction__receive {
@@ -593,7 +593,7 @@ a:hover {
 }
 
 .transaction__receive::before {
-    background-image: url(/img/receive.svg);
+    background-image: url(../img/receive.svg);
 }
 
 .transaction__table-wrapper {
