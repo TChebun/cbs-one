@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 col-sm-6 col-md-8 col-lg-9">
+                    <a href="/" class="header__logo">
+                        <img src="img/logo.svg" alt="Logo">
+                    </a>
+                </div>
+                <div class="col-8 col-sm-6 col-md-4 col-lg-3">
+                    <div class="header__account-wrapper" id="account">
+                        <a href="/" class="header__account">
+                            <span>Account name</span>
+                            <img class="header__img" src="img/account.svg" alt="account">
+                        </a>
+                        <div class="hide__menu">
+                            <div class="account__name">Account name</div>
+                            <div class="account__code">120sjgb86a9afafs216cfd3...
+                                <button class="account__name-button">
+                                    <img src="img/copy.svg" alt="copy">
+                                </button>
+                            </div>
+                            <button class="hide__box">
+                                <img src="img/key.svg" alt="key">
+                                <span>Set key</span>
+                            </button>
+                            <button class="hide__box">
+                                <img src="img/code.svg" alt="pin-code">
+                                <span>Set pin-code</span>
+                            </button>
+                            <button class="hide__box">
+                                <img src="img/logout.svg" alt="logout">
+                                <span>log out</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-1 col-xl-2">
+                    <nav class="menu__wrapper">
+                        <ul class="menu__box">
+                            <li class="menu__item">
+                                <a href="/" class="menu__link active wallet"><span>Wallet</span></a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="/" class="menu__link staked"><span>Staked</span></a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="/" class="menu__link ambasdors"><span>Ambasdors</span></a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="/" class="menu__link followers"><span>Followers</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4 p0">
+                    <section class="profile">
+                        <div class="profile__account">
+                            <img class="profile__img" src="img/account.svg" alt="account">
+                            <div class="account__box">
+                                <div class="account__author">by <a href="/">makeaccounts</a> 2 hiurs ago <button
+                                        class="account__name-button"><img src="img/link.svg" alt="link"></button></div>
+                                <div class="account__name">Long account name <button class="account__name-button"><img
+                                            src="img/copy.svg" alt="copy"></button></div>
+                            </div>
+                        </div>
+                        <div class="profile__amount">
+                            <div class="profile__sum">
+                                <div class="profile__sum-item">1 731.1382 <span>CBS</span></div>
+                                <img src="img/res1.png" alt="cbs">
+                            </div>
+                            <div class="profile__num">
+                                <span class="open">573.1355</span>
+                                &#8226;
+                                <span class="close">1231.1423</span>
+                            </div>
+                        </div>
+                        <div class="profile__amount">
+                            <div class="profile__sum">
+                                <div class="profile__sum-item">142.1382 <span>CBSCH</span></div>
+                                <img src="img/res2.png" alt="cbs">
+                            </div>
+                        </div>
+                        <div class="resources">
+                            <h3>Resources</h3>
+                            <div class="resources__box">
+                                <div class="resources__title">Ram</div>
+                                <div class="resources__img">
+                                    <svg width="60" height="60">
+                                        <circle r="24" cx="30" cy="30" fill="transparent" stroke="rgba(52, 48, 39, 0.1)"
+                                            stroke-width="6" />
+                                        <circle class="ram" r="24" cx="30" cy="30" fill="transparent" />
+                                    </svg>
+                                </div>
+                                <div class="resources__item">
+                                    <div class="resources__percent">43.20%</div>
+                                    <div class="resources__num">30.73 MB / 34.65 MB</div>
+                                </div>
+                            </div>
+                            <div class="resources__box">
+                                <div class="resources__title">Cpu</div>
+                                <div class="resources__img">
+                                    <svg width="60" height="60">
+                                        <circle r="24" cx="30" cy="30" fill="transparent" stroke="rgba(52, 48, 39, 0.1)"
+                                            stroke-width="6" />
+                                        <circle class="cpu" r="24" cx="30" cy="30" fill="transparent" />
+                                    </svg>
+                                </div>
+                                <div class="resources__item">
+                                    <div class="resources__percent">76.20%</div>
+                                    <div class="resources__num">∞ µs / ∞ µs</div>
+                                </div>
+                            </div>
+                            <div class="resources__box">
+                                <div class="resources__title">Net</div>
+                                <div class="resources__img">
+                                    <svg width="60" height="60">
+                                        <circle r="24" cx="30" cy="30" fill="transparent" stroke="rgba(52, 48, 39, 0.1)"
+                                            stroke-width="6" />
+                                        <circle class="net" r="24" cx="30" cy="30" fill="transparent" />
+                                    </svg>
+                                </div>
+                                <div class="resources__item">
+                                    <div class="resources__percent">100.00%</div>
+                                    <div class="resources__num">∞ µs / ∞ µs</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-6 p0">
+                    <section class="transaction">
+                        <div class="transaction__wrapper">
+                            <div class="transaction__box">
+                                <h1 class="transaction__title">Transactions</h1>
+
+                                <div class="transaction__tabs">
+                                    <div class="transaction__sort" id="inbox">
+                                        <button class="transaction__button inn-out active">All</button>
+                                        <button class="transaction__button inn-out">Inn</button>
+                                        <button class="transaction__button inn-out">Out</button>
+                                    </div>
+                                    <div class="transaction__sort">
+                                        <button class="transaction__button balance-mod active">All</button>
+                                        <button class="transaction__button balance-mod">CBS</button>
+                                        <button class="transaction__button balance-mod">CBSH</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="transaction__buttons">
+                                <button class="transaction__send">Send</button>
+                                <button class="transaction__receive">Receive</button>
+                            </div>
+                        </div>
+                        <div class="transaction__table-wrapper">
+                            <table class="transaction__table" id="transaction__table">
+                                <tr class="transaction__head">
+                                    <th class="transaction__head-title rank-title">Rank</th>
+                                    <th class="transaction__head-title date-title">Date &#8226; Time</th>
+                                    <th class="transaction__head-title name-title">Name</th>
+                                    <th class="transaction__head-title">Balance</th>
+                                </tr>
+                                <tbody id="tbody">
+                                </tbody>
+                            </table>
+                            <ul id="pagination">
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
