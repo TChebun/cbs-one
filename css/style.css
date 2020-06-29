@@ -221,11 +221,11 @@ a:hover {
 }
 
 .ambasdors::before {
-    background-image: url(/img/ambasdors.svg);
+    background-image: url(../img/ambasdors.svg);
 }
 
 .followers::before {
-    background-image: url(/img/followers.svg);
+    background-image: url(../img/followers.svg);
 }
 
 .profile {
